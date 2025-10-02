@@ -31,4 +31,29 @@ body{
     border: 2px solid #FFD1DC;
     border-radius: 8px;
 }
+.frame-101-header{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+}
+.frame-101-b{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: auto 200px;
+}
+.frame-101-cards{
+    max-width: 300px;
+    width: 270px;
+    height: 290px;
+    border-radius: 8px;
+    place-content: center;
+    background-color: rgb(244, 199, 245);
+}
+
     /* --section-background: #f8f7f6; */
