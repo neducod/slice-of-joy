@@ -64,24 +64,26 @@ body{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 460px;
-    height: 920px;
+    width: 320px;
+    height: 260px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: 0.3s ease-in-out; 
+    margin: auto;
 }
 .frame-101-cards-a:hover{
     transform: scale(1.03);
-    width: 220px;
+    width: 300px;
 }
 .frame-101-cards-a:hover .ls{
     width: 100%;
 }
 .ls{
-    background-color: #5de2a3;
-    width: 130px;
-    height: 120px;
-    border-radius: 4px;
+    /* background-color: #5de2a3; */
+    width: 100px;
+    height: fit-content;
+    /* height: 120px; */
+    border-radius: 8px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -95,12 +97,16 @@ body{
     width: calc(100% - 130px);
     display: flex;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: pointer;
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
 }
 .rs:hover{
+    padding-left: 20px;
     background-color: #f9f7f9;
+}
+.rs p:hover{
+    padding: 20px;
 }
