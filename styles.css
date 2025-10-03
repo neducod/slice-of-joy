@@ -243,8 +243,40 @@ body{
     background-color: #00ca4e;
    }
    
-
-
+.frame-103{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.frame-103-content{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.frame-103-content-a h3{
+    font-size: 2rem;
+}
+.frame-103-content-b{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.brd-100{
+    display: flex;
+    gap: 30px;
+}
+.brd-101{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #FFD1DC;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.brd-101 img{
+    width: 40px;
+}
 footer{
     background-color: black;
     color: white;
