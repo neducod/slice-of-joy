@@ -201,4 +201,91 @@ body{
   .cart-button .cart-icon {
     width: 1rem;
   }
+  
+.pop-up {
+    display: none;
+    width: 190px;
+    height: 254px;
+    margin: 0 auto;
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+   
 
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer h2{
+    font-size: 4rem;
+}
+.footer-101{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-102{
+    display: flex;
+    gap: 68px;
+}
+.footer-102 ul{
+    display: flex;
+    gap: 6px;
+    font-size: 17px;
+    flex-direction: column;
+}
+.footer-102 ul li{
+    list-style-type: none;
+}
+.footer-102 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-p{
+    padding: 20px;
+}
+.footer-p a{
+    color: whitesmoke;
+}
