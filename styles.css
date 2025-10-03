@@ -248,6 +248,17 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 120px;
+}
+.frame-103-header{
+    padding: 60px;
+    padding-bottom: 100px;
+}
+.frame-103-header h2{
+    font-size: 2.4rem;
+}
+.frame-103-header p{
+    text-align: center;
 }
 .frame-103-content{
     padding: 20px;
@@ -262,7 +273,15 @@ body{
 .frame-103-content-b{
     display: flex;
     flex-direction: column;
+    /* flex-direction: column; */
     gap: 50px;
+}
+.brd-50{
+    margin-top: 50px;
+}
+.brd-50 p{
+    width: 660px;
+    font-size: 18px;
 }
 .brd-100{
     display: flex;
