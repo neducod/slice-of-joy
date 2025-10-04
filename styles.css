@@ -20,9 +20,10 @@ nav{
 #navbar.scrolled{
     background-color: black;
     color: white;
+    transition: 0.5s;
 }
 #navbar.scrolled a{
-    background-color: black;
+    background-color: rgb(9, 9, 9);
     color: white;
 }
 nav h1{
