@@ -18,7 +18,12 @@ nav{
     width: 100%;
 }
 #navbar.scrolled{
-    background-color: mistyrose;
+    background-color: black;
+    color: white;
+}
+#navbar.scrolled a{
+    background-color: black;
+    color: white;
 }
 nav h1{
     font-size: 32px;
@@ -40,13 +45,28 @@ nav h1{
     font-size: 1rem;
 }
 #hero{
+    width: 100%;
     display: flex;
+    /* padding: 200px; */
+    padding-top: 100px;
     justify-content: center;
     align-items: center;
 }
-#hero img{
-    width: 880px;
+.text-box{
+flex: 1;
+position: sticky;
+align-self: flex-start;
+top: 100px; 
 }
+.image-box{
+    flex: 1;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 50vh;
+  }
 #hero h1{
     font-family: Playfair Display, Cormorant Garamond;
     font-size: 4rem;
