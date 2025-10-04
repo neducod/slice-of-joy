@@ -6,24 +6,33 @@ body{
     scroll-behavior: smooth;
    background-color: rgba(248, 247, 246, 0.9);; 
 }
-@media (min-width: 1440px) {
-    html {
-      zoom: 1.5;
-    }
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    padding: 30px;
 }
-  
-@media (min-width: 2560px) {
-    html {
-      zoom: 1.7;
-    }
+nav h1{
+    font-size: 32px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-  
-@media (min-width: 3860px) {
-    html {
-      zoom: 2.5;
-    }
+.nav-one ul{
+    display: flex;
+    gap: 50px;
 }
-  
+.nav-one ul li{
+    color: black;
+    list-style-type: none;
+}
+.nav-one ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
 #hero{
     display: flex;
     justify-content: center;
