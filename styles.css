@@ -317,9 +317,16 @@ body{
 }
 .frame-104{
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    padding: 30px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.frame-104-content{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 .frame-104-a{
     display: flex;
@@ -366,6 +373,29 @@ body{
     height: 200px;
     border-radius: 8px;
     background-color: #d1ffed;
+}
+.frame-104-c{
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.frame-104-cc{
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #d1ffed;
+}
+.frame-104-ccc{
+    width: 280px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: #d1ffed;
+}
+.frame-104-cccc{
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #f6ffd1;
 }
 footer{
     background-color: black;
